@@ -56,7 +56,32 @@
 5. Git и GitHub - система контроля версий проекта и система удаленных репозиториев для удобного хранения проекта
 
 ### Сценарии для автоматизации
-Целесообразнее всего автоматизировать часто повторяющиеся тесты и кейсы которые не требуют участия человека. Как к примеру тестирование дизайна и верстки скорее не подлежит автоматизации т.к. не оправдает затраченных ресурсов. Автоматизация коснулась базового функционала приложения, проверок доступности и функциональности элементов управления, сообщения об ошибках.
+Целесообразнее всего автоматизировать часто повторяющиеся тесты и кейсы которые не требуют участия человека. Как к примеру тестирование дизайна и верстки скорее не подлежит автоматизации т.к. не оправдает затраченных ресурсов. Автоматизация коснулась базового функционала приложения, проверок доступности и функциональности элементов управления, а также сообщений об ошибках.
+### Перечень автоматизируемых тесткейсов:
+* ID - 1 Successful login
+* ID - 2.1 Burger menu test
+* ID - 2.2 App logo test
+* ID - 2.3 Our Mission button test
+* ID - 2.4 Profile button test
+* ID - 2.5 Last news block test
+* ID - 2.6 All news button test
+* ID - 3 Add news test
+* ID - 3.2 Adding news
+* ID - 6.5 About App page check - policy
+* ID - 6.5 About App page check - terms
+* ID - 6.5 Open 'About' screen
+* ID - 6.6 Our Mission screen test
+* ID - 7.1 Unsuccessful login with empty login fields
+* ID - 7.2 Unsuccessful login with uppercase valid user data
+* ID - 7.3 Unsuccessful login with bad user data
+* ID - 12.2 Adding new with empty fields
+* ID - 20 Checking of text of error message when unsuccessful login
+* ID - 24.3 Open news page by burger menu
+* ID - 28.4 Back sorting test
+* ID - 28 Sorting test
+* ID - 29 Filters test
+* ID - 29.4 Category filtering test
+
 
 ### Временные затраты на тестирование и автоматизацию
 
